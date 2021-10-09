@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+
+body {
+    text-align: center;
+    background-image: url("https://source.unsplash.com/3uU4DedufDw");
+    background-color: #f7f7f7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 70px;
+    letter-spacing: 20px;
+    font-family: 'Fascinate Inline', cursive;
+    cursor: default;
+    color: crimson;
+    text-shadow: 3px 3px 1px rgba(255, 215, 0, 0.7), 6px 6px 1px rgba(65, 105, 225, 0.7);
+    max-width: 700px;
+    width: 100%;
+    margin: 30px auto;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color: gold;
+    text-shadow: 3px 3px 1px rgba(65, 105, 225, 0.7), 6px 6px 1px rgba(220, 20, 60, 0.7);
+}
+
+h3 {
+    font-size: 32px;
+    letter-spacing: 8px;
+    cursor: default;
+    font-family: 'Kirang Haerang', cursive;
+    color: gold;
+    text-shadow: 1px 1px 1px blue, 2px 2px 1px red;
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto 15px;
+}
+
+h3:hover {
+    color: crimson;
+    text-shadow: 1px 1px 1px gold, 2px 2px 1px blue;
+}
+
+h4 {
+    line-height: 2;
+    letter-spacing: 3px;
+    font-size: 26px;
+    cursor: default;
+    color: #1c1c1c;
+    font-family: 'Kirang Haerang', cursive;
+    text-shadow: 1px 1px 1px #1c1c1c;
+}
+
+input {
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+canvas {
+    border-top: 10px solid crimson;
+    border-bottom: 10px solid royalblue;
+    border-left: 10px solid gold;
+    border-right: 10px solid mistyrose;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #1c1c1c;
+}
+
+#restart {
+    font-size: 20px;
+    color: gold;
+    text-shadow: 1px 1px 1px blue, 2px 2px 1px red;
+    max-width: 620px;
+    width: 100%;
+    margin: 15px auto 10px;
+}
+
+#restart:hover {
+    color: royalblue;
+    text-shadow: 1px 1px 1px gold, 2px 2px 1px red;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+    cursor: default;
+    font-family: "Gloria Hallelujah", cursive;
+    letter-spacing: 3px;
+    margin: 30px auto 5px auto;
+    color: #1c1c1c;
+    max-width: 350px;
+    width: 100%;
+  }
+  
+  footer p:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+  }
+
+  .icons {
+      text-align: center;
+      margin-top: 10px;
+  }
+
+  #linkedin, #github, #discord, #codepen, #mail {
+      color: #343434;
+      padding: 0 10px;
+  }
+
+  #linkedin:hover, #github:hover, #discord:hover, #codepen:hover, #mail:hover {
+    color: crimson;
+  }
+
+  /* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: crimson;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: gold;
+    border-radius: 20px;
+  }
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: blue;
+  }
